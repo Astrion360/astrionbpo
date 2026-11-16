@@ -1,0 +1,52 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0a2745">
+ <meta name="description" content="Envie uma solicitação de proposta comercial diretamente para a Astrion Assessoria."><title>Solicitar proposta | Astrion Assessoria</title>
+ <link rel="icon" type="image/png" href="assets/favicon.png"><link rel="stylesheet" href="assets/styles.css"><link rel="stylesheet" href="assets/visual-v3.css">
+ <script defer src="assets/catalog-data.js"></script><script defer src="assets/config.js"></script><script defer src="assets/inteligencia-astrion.js"></script><script defer src="assets/carrinho-astrion.js"></script><script defer src="assets/app.js"></script>
+ </head><body data-page="contato.html"><a class="skip-link" href="#conteudo">Ir para o conteúdo</a><header class="site-header"><div class="container header-row">
+ <a href="index.html" class="brand" aria-label="Astrion — página inicial"><img src="assets/logo-astrion.png" alt="Astrion Assessoria"><span class="brand-name">Estratégia · Estruturação<br>Gestão de negócios</span></a>
+ <button class="menu-btn" type="button" aria-label="Abrir navegação" aria-expanded="false" id="menu-toggle">☰ Menu</button>
+ <nav class="main-nav" id="main-nav" aria-label="Navegação principal"><a href="index.html" >Início</a><a href="solucoes.html" >Soluções</a><a href="servicos.html" >Catálogo</a><a href="assistente.html" >Assistente de soluções</a><a href="sobre.html" >Sobre a Astrion</a></nav><a class="cart-top" href="carrinho.html" aria-label="Ver carrinho de orçamento"><span class="cart-icon" aria-hidden="true">▤</span> Carrinho <span id="cart-count" class="cart-count">0</span></a><a class="btn btn-primary btn-small header-cta" href="contato.html">Solicitar proposta <span aria-hidden="true">↗</span></a>
+ </div></header><main id="conteudo"><section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Trilha de navegação"><a href="index.html">Início</a><span> / </span><b>Solicitar proposta</b></nav><div class="eyebrow">Solicitar proposta</div><h1>Uma boa proposta começa <span style="color:var(--goldlight)">com um bom briefing.</span></h1><p>Envie seu desafio e os serviços selecionados para nossa equipe. Sem compromisso de contratação.</p></div></section>
+<section class="content-section section-soft request-section"><div class="container">
+ <div class="request-layout">
+  <div class="request-form-card">
+   <div class="request-topline"><span class="eyebrow">Atendimento consultivo</span><span class="pill pill-gold">Envio seguro de solicitação</span></div>
+   <h2>Apresente sua necessidade</h2>
+   <p class="request-lead">Conte um pouco sobre a empresa. Sua mensagem será encaminhada à equipe comercial da Astrion e a proposta será preparada conforme o escopo.</p>
+   <div class="notice" id="brief-cart-review" hidden>Seu carrinho será anexado ao pedido, com os serviços e valores de referência. <a class="text-link" href="carrinho.html">Revisar seleção</a>.</div>
+   <div class="notice" id="brief-assistant-review" hidden>O desafio descrito no assistente foi recuperado para você revisar. Nada será enviado sem sua confirmação.</div>
+   <form id="briefing-form" autocomplete="on">
+    <div class="input-row">
+     <div><label for="brief-person">Nome do responsável <span aria-hidden="true">*</span></label><input id="brief-person" name="nome" class="field" required maxlength="120" autocomplete="name" placeholder="Seu nome"></div>
+     <div><label for="brief-email">E-mail para resposta <span aria-hidden="true">*</span></label><input id="brief-email" name="email" type="email" class="field" required maxlength="180" autocomplete="email" placeholder="voce@empresa.com.br"></div>
+    </div>
+    <div class="input-row">
+     <div><label for="brief-company">Empresa</label><input id="brief-company" name="empresa" class="field" maxlength="120" autocomplete="organization" placeholder="Nome da empresa"></div>
+     <div><label for="brief-phone">Telefone (opcional)</label><input id="brief-phone" name="telefone" class="field" type="tel" maxlength="40" autocomplete="tel" placeholder="(11) 99999-9999"></div>
+    </div>
+    <div class="input-row">
+     <div><label for="brief-line">Frente de atuação</label><select id="brief-line" class="field"><option value="A definir">Quero orientação</option><option>Consultoria Estratégica</option><option>Estruturação e Implantação</option><option>BPO e Gestão Continuada</option></select></div>
+     <div><label for="brief-when">Prazo desejado</label><select id="brief-when" class="field"><option value="A definir">A definir</option><option>Até 30 dias</option><option>De 30 a 90 dias</option><option>Mais de 90 dias</option></select></div>
+    </div>
+    <div class="form-group"><label for="brief-objective">Qual desafio você quer resolver? <span aria-hidden="true">*</span></label><textarea id="brief-objective" name="objetivo" class="field" required minlength="10" maxlength="2500" placeholder="Descreva o desafio, o resultado esperado e qualquer informação que ajude a dimensionar a solução."></textarea></div>
+    <div class="consent-row"><input type="checkbox" id="brief-consent" required><label for="brief-consent">Autorizo o envio das informações preenchidas e dos serviços selecionados à Astrion para que minha solicitação comercial seja analisada. <a href="privacidade.html" target="_blank" rel="noopener noreferrer">Veja como os dados são utilizados.</a></label></div>
+    <div class="honeypot" aria-hidden="true"><label for="brief-website">Não preencha este campo</label><input type="text" id="brief-website" name="website" tabindex="-1" autocomplete="off"></div>
+    <div class="request-actions"><button type="submit" id="brief-send" class="btn btn-primary btn-send">Enviar solicitação para a Astrion <span aria-hidden="true">→</span></button><button type="button" id="brief-copy" class="btn btn-outline">Copiar resumo</button></div>
+    <p class="form-note">O envio utiliza o mesmo serviço de formulários do site institucional da Astrion. Seus dados serão encaminhados apenas ao confirmar acima.</p>
+    <div class="request-feedback" id="briefing-preview" hidden role="status" aria-live="polite"></div>
+    <a class="btn btn-outline" id="brief-mailto" href="#" hidden>Abrir seu programa de e-mail ↗</a>
+   </form>
+  </div>
+  <aside class="request-side">
+    <div class="request-side-head"><span class="eyebrow">Próxima etapa</span><h3>Da necessidade à proposta.</h3><p>O pedido chega à Astrion com os itens escolhidos, sem gerar contratação automática.</p></div>
+    <div class="request-timeline"><div><span>01</span><p><strong>Você descreve</strong> seu objetivo e revisa os serviços sugeridos.</p></div><div><span>02</span><p><strong>Recebemos a solicitação</strong> diretamente no canal comercial da Astrion.</p></div><div><span>03</span><p><strong>Avaliamos o escopo</strong> e retornamos com a proposta específica.</p></div></div>
+    <div class="request-email"><small>Canal de recebimento</small><a href="mailto:contato@astrion360.com.br">contato@astrion360.com.br</a><p>Propostas, projetos e parcerias.</p></div>
+  </aside>
+ </div>
+</div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div>
+ <div class="footer-brand">ASTRION <span style="font-size:10px;letter-spacing:.22em;font-weight:600;color:#e0c17b">ASSESSORIA</span></div>
+ <p>Estratégia, estruturação e gestão de negócios. Da identificação de oportunidades à implantação e sustentação de operações.</p>
+ <p>Atuação consultiva e execução coordenada com especialistas quando necessário.</p></div>
+ <div class="footer-links"><h4>Explore</h4><a href="solucoes.html">Soluções comerciais</a><a href="servicos.html">Serviços e valores</a><a href="assistente.html">Assistente de soluções</a><a href="carrinho.html">Carrinho de orçamento</a><a href="sobre.html">Quem somos</a></div>
+ <div class="footer-links"><h4>Informações</h4><a href="glossario.html">Glossário</a><a href="contato.html">Solicitar proposta</a><a href="privacidade.html">Privacidade do assistente</a><a href="https://assessoria.astrion360.com.br" target="_blank" rel="noopener noreferrer">Site institucional ↗</a></div></div>
+ <div class="footer-bottom"><span>© <span id="year">2026</span> Astrion Assessoria. Todos os direitos reservados.</span><span>Preços de referência com validade até 12/12/2026. Condições e escopo mediante proposta específica.</span></div></div></footer><div class="toast" role="status" aria-live="polite" id="toast" hidden></div></body></html>
